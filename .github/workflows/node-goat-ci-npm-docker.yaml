@@ -51,8 +51,8 @@ jobs:
           JF_URL: https://${{ vars.JF_URL }}/
           JF_PROJECT: ${{ vars.JF_PROJECT }}
         with:
-          oidc-provider-name: jf-github-rk 
-          oidc-audience: https://github.com/rkfrog
+          oidc-provider-name: github-oidc-marco 
+          oidc-audience: https://github.com/marcoman
       - name: Health check JFrog Artifactory instance 🐸
         run: |
           jf --version
