@@ -52,7 +52,7 @@ jobs:
           JF_PROJECT: ${{ vars.JF_PROJECT }}
         with:
           oidc-provider-name: github-oidc-marco 
-          oidc-audience: https://github.com/marcoman
+          oidc-audience: Marco Morales
       - name: Health check JFrog Artifactory instance 🐸
         run: |
           jf --version
