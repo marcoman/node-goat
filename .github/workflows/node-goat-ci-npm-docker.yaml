@@ -52,7 +52,7 @@ jobs:
           JF_PROJECT: ${{ vars.JF_PROJECT }}
 #          JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
         with:
-          oidc-provider-name: marco-node-goat 
+          oidc-provider-name: github-oidc-marco 
           oidc-audience: Marco Morales
       - name: Health check JFrog Artifactory instance 🐸
         run: |
